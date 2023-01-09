@@ -1,0 +1,14 @@
+.index__albums{
+  display:flex;
+  flex-direction: row
+}
+
+.index__albums > *{
+  position: relative;
+  width: 800px;
+  height: 800px;
+}
+
+#album2{
+  margin-left:400px;
+}

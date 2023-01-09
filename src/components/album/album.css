@@ -1,0 +1,30 @@
+.album{
+    position: relative;
+}
+
+.album > * {
+    display:inline-block;
+    position: absolute;
+    background-position: center center;
+    background-size: cover;
+    image-orientation: from-image;
+    object-fit: cover;
+}
+
+.landscape{
+    width: 800px;
+    height: 600px;
+    padding-top: 100px;
+}
+
+.portrait{
+    width: 600px;
+    height: 800px;
+    padding-left: 100px;
+}
+
+.square{
+    width: 800px;
+    height: 800px; 
+}
+
